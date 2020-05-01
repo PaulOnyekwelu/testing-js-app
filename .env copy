@@ -1,0 +1,15 @@
+PORT=4001
+NODE_ENV=development
+APP_URL=http://localhost:4001
+
+DEVELOPMENT_DATABASE_URL="mongodb://localhost:27017/testapp"
+PRODUCTION_DATABASE_URL="mongodb://localhost:27017/testapp_production"
+TEST_DATABASE_URL="mongodb://localhost:27017/testapp_test"
+
+MAIL_FROM= 'TestApp Limited'
+MAIL_PORT=2525
+MAIL_HOST=smtp.mailtrap.io
+MAIL_USERNAME= ''
+MAIL_PASSWORD= ''
+
+JWT_SECRET=hhUFFjBy44Yd5yIh4WGa8XCOF5w1eHWHDL67Vyk6vw9bo6gV
